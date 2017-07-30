@@ -1,0 +1,184 @@
+/* Here is my google font */
+
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url(../images/insidesanctuary.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    color: white;
+    
+}
+
+
+html {
+  font-family: 'Bellefair', serif;
+  font-size: 16px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+/*this targets the whole ul*/
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #fff2e6;
+}
+
+/* this targets the list items */
+
+nav li {
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #AA6C39;
+}
+
+nav {
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.message {
+    background-color: #fff2e6;
+    box-shadow: 0 0 5px 10px #AA6C39;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.message h2 {
+    color: #fff2e6;
+}
+
+/*this styles the paragraph on the home page*/
+
+.paragraph {
+    text-align: center;
+    width: 75%;
+    margin: inherit;
+    color: #AA6C39;  
+}
+
+.first-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.first-section img {
+    width: 40%;
+    margin:auto;
+    border-color: white;
+}
+
+.second-section {
+    display: flex;
+    align-items: center;
+    margin:auto;
+    height: 300px;
+}
+
+.col-1 {
+    background-color: #AA6C39;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding: 21px;
+}
+
+.col-2 {
+    width: 45%;
+    text-align: center;
+    background-color: #AA6C39;
+    margin:auto;
+}
+
+/* this styles the about page */
+
+.img {
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+    margin: 0 auto;
+    background-color: #AA6C39;
+    box-shadow: 0 0 5px 10px #AA6C39;
+}
+    
+.ourstory {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.ourstory h1 {
+   margin-top: 50px;
+}
+
+/* this styles the calendar page */
+
+.eventdates {
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.eventdates h1 {
+    font-size: 50px;
+}
+
+.eventdates h2 {
+    margin-top: 50px;
+}
+
+
+/* this styles the contact page */
+
+.contact {
+  margin: 0 auto;
+  text-align: center;    
+}
+.contact h1 {
+    font-size: 50px;
+}
+.contact p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#contact_form {
+    font-size: 30px;
+}
+
+
+/* this styles the footer */
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
